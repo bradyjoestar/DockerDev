@@ -1,0 +1,41 @@
+=============== Dec 5, 2022 (CST) ===============
+15:19:30.234981 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:19:30.249578 db@open opening
+15:19:30.250419 version@stat F·[] S·0B[] Sc·[]
+15:19:30.254756 db@janitor F·2 G·0
+15:19:30.254783 db@open done T·5.181084ms
+15:19:30.256305 db@close closing
+15:19:30.256414 db@close done T·107.5µs
+=============== Dec 5, 2022 (CST) ===============
+15:19:39.631179 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:19:39.631368 version@stat F·[] S·0B[] Sc·[]
+15:19:39.631389 db@open opening
+15:19:39.631441 journal@recovery F·1
+15:19:39.634704 journal@recovery recovering @1
+15:19:39.639082 memdb@flush created L0@2 N·114 S·26KiB "\x00\x94~..U^\xc5,v86":"\xfb\xb7\xe4..\x8fp\xb1,v70"
+15:19:39.642024 version@stat F·[1] S·26KiB[26KiB] Sc·[0.25]
+15:19:39.661513 db@janitor F·3 G·0
+15:19:39.661536 db@open done T·30.13725ms
+15:31:17.695041 db@close closing
+=============== Dec 5, 2022 (CST) ===============
+15:31:26.132557 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:31:26.132971 version@stat F·[1] S·26KiB[26KiB] Sc·[0.25]
+15:31:26.132996 db@open opening
+15:31:26.133057 journal@recovery F·1
+15:31:26.135232 journal@recovery recovering @3
+15:31:26.150141 memdb@flush created L0@5 N·147 S·12KiB "\x01\xf4\xa4..\x92\x9c\x81,v240":"\xf1H-..\xea\x9b\",v252"
+15:31:26.152659 version@stat F·[2] S·38KiB[38KiB] Sc·[0.50]
+15:31:26.176796 db@janitor F·4 G·0
+15:31:26.176821 db@open done T·43.815875ms
+15:46:10.681034 db@close closing
+=============== Dec 5, 2022 (CST) ===============
+15:46:15.598372 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:46:15.598785 version@stat F·[2] S·38KiB[38KiB] Sc·[0.50]
+15:46:15.598811 db@open opening
+15:46:15.598892 journal@recovery F·1
+15:46:15.602386 journal@recovery recovering @6
+15:46:15.613193 memdb@flush created L0@8 N·98 S·7KiB "\x15\xd3x..\xfc\xf4\xcf,v347":"\xfaUH..\xce\xd6\x7f,v358"
+15:46:15.616066 version@stat F·[3] S·46KiB[46KiB] Sc·[0.75]
+15:46:15.673626 db@janitor F·5 G·0
+15:46:15.673664 db@open done T·74.837459ms
+15:53:17.574687 db@close closing

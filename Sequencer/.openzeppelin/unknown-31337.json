@@ -1,0 +1,206 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853",
+    "txHash": "0x18e2194d91aaa9dc0cb8028062fdb3c0083cd8df361b7144365a3ab00a2db6a5"
+  },
+  "proxies": [
+    {
+      "address": "0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6",
+      "txHash": "0xdb43311b54771c03a6ead8887777bcefc2a79c5bae7410a325a24190dae6c15c",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x610178dA211FEF7D417bC0e6FeD39F05609AD788",
+      "txHash": "0x687872442307c366ca5b92b056209ee230bc8e65196e66814f08e6c6717d6fe5",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xA51c1fc2f0D1a1b8494Ed1FE312d7C3a78Ed91C0",
+      "txHash": "0x2472d8457d01e9ae3e0ac4dbe51b2bcbcff51b54f8c785a202f3b183e09e2391",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x9A676e781A523b5d0C0e43731313A708CB607508",
+      "txHash": "0x41b7fa594d71297e2f89807d66ce7215a713d59798f88fe31abe27b68ec4b121",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x959922bE3CAee4b8Cd9a407cc3ac1C251C2007B1",
+      "txHash": "0xb3ce488ab309dd4e369109dd7ceddd6c20222cb4bb0b69d9d99dc4a90bdea7ec",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x68B1D87F95878fE05B998F19b66F4baba5De1aed",
+      "txHash": "0x0ef650e9d174de3c754a9aa525889a6ed61f09911692f0ea65eb53ba2a8cdb0e",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xc6e7DF5E7b4f2A278906862b61205850344D4e7d",
+      "txHash": "0xd5ab2cfb1eee460d892cf0051686d62d21bf47912e30b288fb7ebbe3d7e0c88f",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x4ed7c70F96B99c776995fB64377f0d4aB3B0e1C1",
+      "txHash": "0x497a927ad9debd4edca8df851059c27cdc16c581a12beaa24ea3f179ef19c494",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xa85233C63b9Ee964Add6F2cffe00Fd84eb32338f",
+      "txHash": "0x49f56aad20a8abafb5f7e7dfb8c641bbefba96d771b07d02e03f43ad3d114b3f",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "69a4ec2613a67a688c84cb91a271dc48be7fd0ca8ae21e8b2afb26858eb4c32b": {
+      "address": "0x0165878A594ca255338adfa4d48449f69242Eb8F",
+      "txHash": "0x7689f4df2011a36222779e63a4dcaf6a7c5d569d8ce1c53434301641f3a4baf0",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_uint8",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+          },
+          {
+            "contract": "ReentrancyGuardUpgradeable",
+            "label": "_status",
+            "type": "t_uint256",
+            "src": "@openzeppelin/contracts-upgradeable/security/ReentrancyGuardUpgradeable.sol:38"
+          },
+          {
+            "contract": "ReentrancyGuardUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "@openzeppelin/contracts-upgradeable/security/ReentrancyGuardUpgradeable.sol:74"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:36"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:22"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:94"
+          },
+          {
+            "contract": "Sequencer",
+            "label": "sequencers",
+            "type": "t_mapping(t_address,t_struct(SequencerInfo)724_storage)",
+            "src": "contracts/Sequencer.sol:18"
+          },
+          {
+            "contract": "Sequencer",
+            "label": "rel",
+            "type": "t_mapping(t_address,t_address)",
+            "src": "contracts/Sequencer.sol:23"
+          },
+          {
+            "contract": "Sequencer",
+            "label": "owners",
+            "type": "t_array(t_address)dyn_storage",
+            "src": "contracts/Sequencer.sol:26"
+          },
+          {
+            "contract": "Sequencer",
+            "label": "bitToken",
+            "type": "t_address",
+            "src": "contracts/Sequencer.sol:28"
+          },
+          {
+            "contract": "Sequencer",
+            "label": "epoch",
+            "type": "t_uint256",
+            "src": "contracts/Sequencer.sol:30"
+          },
+          {
+            "contract": "Sequencer",
+            "label": "sequencerLimit",
+            "type": "t_uint8",
+            "src": "contracts/Sequencer.sol:32"
+          },
+          {
+            "contract": "Sequencer",
+            "label": "scheduler",
+            "type": "t_address",
+            "src": "contracts/Sequencer.sol:34"
+          }
+        ],
+        "types": {
+          "t_mapping(t_address,t_struct(SequencerInfo)724_storage)": {
+            "label": "mapping(address => struct Sequencer.SequencerInfo)"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_struct(SequencerInfo)724_storage": {
+            "label": "struct Sequencer.SequencerInfo",
+            "members": [
+              {
+                "label": "owner",
+                "type": "t_address"
+              },
+              {
+                "label": "mintAddress",
+                "type": "t_address"
+              },
+              {
+                "label": "nodeID",
+                "type": "t_bytes_storage"
+              },
+              {
+                "label": "amount",
+                "type": "t_uint256"
+              },
+              {
+                "label": "keyIndex",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_bytes_storage": {
+            "label": "bytes"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_address,t_address)": {
+            "label": "mapping(address => address)"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    }
+  }
+}

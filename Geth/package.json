@@ -1,0 +1,11 @@
+{
+  "name": "geth_node",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "hardhat node --port 9545"
+  },
+  "devDependencies": {
+    "hardhat": "^2.10.2"
+  }
+}

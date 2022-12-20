@@ -1,0 +1,41 @@
+=============== Dec 5, 2022 (CST) ===============
+15:19:33.648545 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:19:33.668744 db@open opening
+15:19:33.669538 version@stat F·[] S·0B[] Sc·[]
+15:19:33.673910 db@janitor F·2 G·0
+15:19:33.673936 db@open done T·5.171708ms
+15:19:33.675574 db@close closing
+15:19:33.675670 db@close done T·94.75µs
+=============== Dec 5, 2022 (CST) ===============
+15:19:41.295602 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:19:41.295877 version@stat F·[] S·0B[] Sc·[]
+15:19:41.295894 db@open opening
+15:19:41.295940 journal@recovery F·1
+15:19:41.298788 journal@recovery recovering @1
+15:19:41.304874 memdb@flush created L0@2 N·114 S·26KiB "\x00\x94~..U^\xc5,v101":"\xfb\xb7\xe4..\x8fp\xb1,v70"
+15:19:41.308924 version@stat F·[1] S·26KiB[26KiB] Sc·[0.25]
+15:19:41.327237 db@janitor F·3 G·0
+15:19:41.327266 db@open done T·31.360167ms
+15:31:18.260277 db@close closing
+=============== Dec 5, 2022 (CST) ===============
+15:31:29.185382 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:31:29.185912 version@stat F·[1] S·26KiB[26KiB] Sc·[0.25]
+15:31:29.185936 db@open opening
+15:31:29.185998 journal@recovery F·1
+15:31:29.189279 journal@recovery recovering @3
+15:31:29.193887 memdb@flush created L0@5 N·145 S·11KiB "\x01\xf4\xa4..\x92\x9c\x81,v238":"\xf1H-..\xea\x9b\",v250"
+15:31:29.196877 version@stat F·[2] S·38KiB[38KiB] Sc·[0.50]
+15:31:29.215657 db@janitor F·4 G·0
+15:31:29.215681 db@open done T·29.734291ms
+15:46:11.184554 db@close closing
+=============== Dec 5, 2022 (CST) ===============
+15:46:12.941032 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:46:12.941382 version@stat F·[2] S·38KiB[38KiB] Sc·[0.50]
+15:46:12.941400 db@open opening
+15:46:12.941467 journal@recovery F·1
+15:46:12.944610 journal@recovery recovering @6
+15:46:12.949029 memdb@flush created L0@8 N·97 S·7KiB "\x15\xd3x..\xfc\xf4\xcf,v344":"\xfaUH..\xce\xd6\x7f,v355"
+15:46:12.951945 version@stat F·[3] S·46KiB[46KiB] Sc·[0.75]
+15:46:12.970421 db@janitor F·5 G·0
+15:46:12.970442 db@open done T·29.032292ms
+15:53:18.147276 db@close closing
